@@ -1,0 +1,198 @@
+
+/******************************** partie du navbar ************************************/
+.header{
+    background: #F7EDE8;
+    padding-bottom: 150px;
+}
+
+.navigation{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: montserrat;
+    padding-top: 24px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 76px;
+}
+
+.img-logo{
+    width: 4.625rem;
+    height: 4.625rem;
+    flex-shrink: 0;
+    margin-left: 1.4%;
+}
+
+.menus{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+.frame11{
+    display: flex;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+.btn1{
+    
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid black; 
+
+}
+
+.btn2{
+    color: #fff;
+    
+    padding: 0.75rem 1.5rem; 
+    border-radius: 0.5rem;
+    background-color: #000;
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.25); 
+}
+
+/****************************** section de la description ****************************/
+
+.description{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: montserrat;
+}
+
+.hs-swirl{
+}
+
+.text-decription{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    margin-left: -70px;
+}
+
+.title-style{
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 96px;
+    text-align: center;
+}
+
+.cl-pd{
+    color: #CD4631;
+}
+
+.para-style{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    color: #4D4D4D;
+}
+
+.btn3{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    padding: 24px 48px 24px 48px;
+    border-radius: 8px;
+    color: white;
+    background: #000;
+    cursor: pointer;
+}
+
+.hs-stars{
+    margin-right: 60px;
+}
+
+/*************************************** partie du covers ************************************************/
+.covers{
+    display: flex;
+    gap: 20px;
+}
+
+.covers img{
+    border-radius: 12px;
+}
+
+#no-radius1{
+    border-radius: 0;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+#no-radius5{
+    border-radius: 0;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+
+.estetique2{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/****************************** les platforms *********************************/
+.support{
+    font-family: montserrat;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #000;
+}
+
+.platforms{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 150px;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.supp-sociaux{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sp,.gp,.yb{
+    padding: 20px 73px 20px 73px;
+    border-radius: 8px;
+}
+
+/****************************** responsovite du navbar et header ************************************/

@@ -1,0 +1,41 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding-bottom: 150px;
+}
+
+.scrible{
+    margin-top: -80px;
+}
+
+.text-desc{
+    font-family: montserrat;
+    font-size: 59px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.groupe{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.gp1,.gp2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+}
+
+.para{
+    font-family: montserrat ;
+    font-size: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}

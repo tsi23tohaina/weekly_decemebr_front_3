@@ -1,0 +1,106 @@
+.contents{
+    background: #F7EDE8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+.title{
+    margin-top: 30px;
+}
+
+.cards{
+    display: flex;
+    gap: 20px;
+}
+
+.card1{
+    border: 1px solid #4D4D4D;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 12px;
+    gap: 15px;
+}
+
+.cover-title{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title-desc{
+    border-bottom: 1px solid #4D4D4D;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.cover-subtitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bouttons{
+    display: flex;
+    gap: 20px;
+}
+
+.orange{
+    color: #CD4631;
+    font-family: montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;  
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.title-orange{
+    color: #CD4631;
+    font-family: montserrat;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.lorem{
+    color: #4D4D4D;
+    font-family: montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.btn-transparent{
+    font-family: montserrat;
+    padding: 6px 12px 6px 12px;
+    border-radius: 4px;
+    color: #4D4D4D;
+    border: 1px solid #4D4D4D;
+    gap: 10px;
+}
+
+.host{
+    color: #4D4D4D;
+    font-family: montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}

@@ -1,0 +1,28 @@
+.features{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 150px;
+    padding-bottom: 150px;
+}
+
+.deux{
+    display: flex;
+    align-items: center;
+}
+
+.scribble-decoration{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -130px;
+}
+
+.boites3{
+    display: flex;
+    align-items: center;
+}
+
+.boite2{
+    display: flex;
+    align-items: center;
+}

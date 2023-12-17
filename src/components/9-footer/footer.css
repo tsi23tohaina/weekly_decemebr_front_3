@@ -1,0 +1,91 @@
+.footer{
+    font-family: montserrat;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 150px;
+}
+
+.foot-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.list1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+
+.logo-site{
+    display: flex;
+    align-items: flex-end;
+    gap: 50px;
+}
+
+.text-site{
+    color: #4D4D4D;
+    font-size: 14px;    
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.list2{
+    display: flex;
+    align-items: start;
+    gap: 90px;
+}
+
+.lt1,.lt2,.lt3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.noir-text,.text-des{
+    color: #4D4D4D;
+    font-family: montserrat;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.orange-text{
+    color: #CD4631;
+    font-family: montserrat;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.platform{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.image-socials{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

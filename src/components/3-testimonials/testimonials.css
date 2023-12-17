@@ -1,0 +1,54 @@
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background: #EDF3F7;
+    padding-bottom: 100px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.right,.left{
+    cursor: pointer;
+}
+
+.display-elem{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.brillant{
+    margin-top: -100px;
+    margin-left: -80px;
+    position: absolute;
+}
+
+.para{
+    color: #4D4D4D;
+}
+
+.testimonials-auto{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.test-auto{
+    display: flex;
+    gap: 20px;
+}
+
+.gauche-droite{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
